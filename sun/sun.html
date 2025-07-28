@@ -1,40 +1,73 @@
-<html style="background-color: pink;">
+<html style="background-color: #FFF5E6;">
 <head>
 <meta charset="utf-8"/>
 <title>阳光小站</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+.fade-in {
+  animation: fadeIn 0.8s ease-in;
+}
+.hover-effect:hover {
+  background-color: rgba(255, 165, 0, 0.2);
+  transform: translateY(-2px);
+  transition: all 0.3s ease;
+}
+@media (max-width: 768px) {
+  table tr td {
+    display: block;
+    width: 100% !important;
+    text-align: center !important;
+    padding: 8px 0;
+  }
+  img {
+    max-width: 80% !important;
+    margin: 5px auto;
+    display: block;
+  }
+}
+</style>
 </head>
 
-<body style="background-color: rgba(225,225,225,0.7);">
-<h1 style="color:blue;text-align: center;">阳光小站Sunny Website</h1>
-<table border='0' width='100%' style="background-color: pink;">
-<tr style="font-size: 22px;text-align: center;">
-<td><a href='sun.html'>快乐文章</a></td>
-<td><a href='https://a.056h.cn/Index/yiyu_b_03.html?sid=MTMwXzE2NDA1NzU5OTU=&bd_vid=10390060769249863768'>心理测评</a></td>
-<td><a href='atc.html'>文章投稿</a></td>
-</tr>
-</table>
-<table border='0' width='100%'>
-<tr style="font-size: 22px;text-align: center;">
-<td><img src="1.png"></td>
-<td><img src="2.png"></td>
-<td><img src="3.png"></td>
-<td><img src="4.png"></td>
-<td><img src="5.png"></td>
-<td><img src="6.png"></td>
-<td><img src="7.png"></td>
-<td><img src="8.png"></td>
-<td><img src="9.png"></td>
-<td><img src="10.png"></td>
-</tr>
-</table>
-<h2 style="text-align: center;">期待你的文章！</h2>
-<p style="text-align: center;"><a href='atc.html'>如果你有一些快乐的事，可以到这投稿，我们欢迎你的稿件~</a></p>
-<table border='1' width='100%'>
-<tr style="font-size: 20px;">
-<td width='40%'><a href='1.html'><h3>这是测试文章，没有内容</h3></a></td>
-<td>作者：雨中</td>
-</tr>
-</table>
-</body>
+<body style="background-color: rgba(255, 255, 255, 0.9); font-family: 'Microsoft YaHei', sans-serif; margin: 0; padding: 20px;">
 
+<h1 style="color:#FF8C00; text-align: center; font-family: 'Microsoft YaHei', sans-serif; text-shadow: 1px 1px 3px rgba(0,0,0,0.2); margin-bottom: 20px;" class="fade-in">阳光小站 Sunny Website</h1>
+
+<table border='0' width='100%' style="background-color: #FFA500; padding: 10px 0; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); margin-bottom: 30px;">
+<tr style="font-size: 22px; text-align: center;">
+<td><a href='sun.html' style="color: white; text-decoration: none; padding: 8px 16px; border-radius: 4px; transition: background-color 0.3s;" class="hover-effect">快乐文章</a></td>
+<td><a href='https://a.056h.cn/Index/yiyu_b_03.html?sid=MTMwXzE2NDA1NzU5OTU=&bd_vid=10390060769249863768' style="color: white; text-decoration: none; padding: 8px 16px; border-radius: 4px; transition: background-color 0.3s;" class="hover-effect">心理测评</a></td>
+<td><a href='atc.html' style="color: white; text-decoration: none; padding: 8px 16px; border-radius: 4px; transition: background-color 0.3s;" class="hover-effect">文章投稿</a></td>
+</tr>
+</table>
+
+<table border='0' width='100%' style="margin: 20px 0; background-color: #FFF9E6; padding: 15px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+<tr style="text-align: center;">
+<td><img src="1.png" style="max-width: 100%; height: auto; border-radius: 4px;"></td>
+<td><img src="2.png" style="max-width: 100%; height: auto; border-radius: 4px;"></td>
+<td><img src="3.png" style="max-width: 100%; height: auto; border-radius: 4px;"></td>
+<td><img src="4.png" style="max-width: 100%; height: auto; border-radius: 4px;"></td>
+<td><img src="5.png" style="max-width: 100%; height: auto; border-radius: 4px;"></td>
+<td><img src="6.png" style="max-width: 100%; height: auto; border-radius: 4px;"></td>
+<td><img src="7.png" style="max-width: 100%; height: auto; border-radius: 4px;"></td>
+<td><img src="8.png" style="max-width: 100%; height: auto; border-radius: 4px;"></td>
+<td><img src="9.png" style="max-width: 100%; height: auto; border-radius: 4px;"></td>
+<td><img src="10.png" style="max-width: 100%; height: auto; border-radius: 4px;"></td>
+</tr>
+</table>
+
+<h2 style="text-align: center; color: #FF8C00; font-style: italic;">期待你的文章！</h2>
+<p style="text-align: center; margin-bottom: 30px;"><a href='atc.html' style="color: #FF8C00; text-decoration: none; font-weight: bold;" class="hover-effect">如果你有一些快乐的事，可以到这投稿，我们欢迎你的稿件~</a></p>
+
+<table border='0' width='100%' style="margin: 20px 0; border-collapse: separate; border-spacing: 0 10px;">
+<tr style="font-size: 20px; background-color: #FFF5E6; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);" class="hover-effect">
+<td width='40%' style="padding: 15px;"><a href='1.html' style="text-decoration: none; color: #333;"><h3 style="margin: 0; color: #FF8C00;">这是测试文章，没有内容</h3></a></td>
+<td style="padding: 15px; color: #666;">作者：雨中</td>
+</tr>
+</table>
+
+</body>
 </html>
